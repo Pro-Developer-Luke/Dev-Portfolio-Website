@@ -244,29 +244,10 @@ flex-direction: column;
     color: #fff;
 }
 
-#slides .slide_1{
-    background-image: url("../assets/projects/Shiftrota_preview_1.JPG");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-#slides .slide_2{
-    background-image: url("../assets/projects/Clearwater_preview.JPG");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-#slides .slide_3{
-    background-image: url("../assets/projects/Digitrecognition_preview.JPG");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-#slides .slide_4{
-    background-image: url("../assets/background.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+#slides .slide_1, .slide_2, .slide_3, .slide_4{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .slide-content{
     display: flex;
