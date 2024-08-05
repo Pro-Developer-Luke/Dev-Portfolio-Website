@@ -35,6 +35,11 @@ header{
 .navbar img{
     width: 50px;
     border-radius: 50%;
+    border: solid 2px #fff;
+}
+
+#active{
+  border: solid 2px #ff974d;
 }
 
 .logo{
@@ -48,19 +53,19 @@ header{
     margin-left: 10px;
 }
 
+
 .navbar a{
     text-decoration: none;
     color: #fff;
     justify-content: space-evenly;
-
-    margin-right: 20px;
+    margin: 20px;
 }
+
+
 
 .navbar .pages{
   display: flex;
   justify-content: space-evenly;
-  width: 20%;
-  min-width: 200px;
 }
 
 .navbar a:hover{
@@ -118,6 +123,7 @@ flex-direction: column;
 .introduction .intro-section img{
     width: 200px;
     border-radius: 50%;
+    border: solid 3px #fff;
 }
 
 .introduction .intro-section ul{
@@ -679,6 +685,101 @@ flex-direction: column;
   .techstack-item img{
     width: 60px;
   }
+  .timeline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      min-width: 900px;
+      width: 100%;
+  }
+  
+  .timeline-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .timeline-column h1 {
+      margin-bottom: 10px;
+  }
+  
+  .timeline-itemED, .timeline-itemEX {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: solid 2px #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+    height: auto; /* Adjust height as needed */
+    box-sizing: border-box; /* Ensure padding is included in height */
+  }
+  
+  .timeline-itemED:nth-child(even),  .timeline-itemEX:nth-child(even) {
+      background: rgba(0, 0, 0, .8);
+  }
+  
+  .timeline-itemED:nth-child(odd),  .timeline-itemEX:nth-child(odd) {
+      background: rgba(0, 0, 0, .8);
+  }
+
+  .timeline-itemED::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    background: #24c251;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .8);
+}
+
+.timeline-itemEX::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background: #248bc2;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, .8);
+}
+  
+  .timeline-content {
+      position: relative;
+  }
+  
+  
+  .timeline-content h3 {
+      margin-top: 0;
+  }
+  
+  .institution, .company {
+      font-weight: bold;
+      color: #999;
+  }
+  
+  .date {
+      color: #999;
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+      from {
+          opacity: 0;
+          transform: translateY(20px);
+      }
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
 
   @media only screen and (max-width: 970px) {
     .introduction{
@@ -721,6 +822,16 @@ flex-direction: column;
     .techstack{
       width: 100%;
     }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr;
+      min-width: 0px;
+  }
+
+  .navbar a{
+    margin: 10px;
+  }
 
   }
 
