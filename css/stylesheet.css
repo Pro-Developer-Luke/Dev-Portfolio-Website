@@ -907,7 +907,7 @@ flex-direction: column;
 		display: none;
 	}
 	.to-top:hover{
-		width: 90px;
+		width: 83px;
 		justify-content: center;
 		padding-inline: 0px;
 		display: flex;
@@ -917,13 +917,6 @@ flex-direction: column;
 		font-size: 55px;
 		padding: 7px;
 		border-radius: 500px;
-	}
-
-	.to-top:hover p{
-		display: hidden;
-	}
-	.to-top p{
-		display: none;
 	}
 
   }
