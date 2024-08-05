@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(114, 114, 114);
-    background-image: url("../assets/background.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-color: rgb(1, 1, 1, 0.6);
+    background-image: url("../assets/background.jpg");
     background-size:cover;
     background-blend-mode: overlay;
-    background-repeat: no-repeat;
+    background-repeat:space;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
