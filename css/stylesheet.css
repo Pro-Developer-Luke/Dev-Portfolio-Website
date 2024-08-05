@@ -717,6 +717,18 @@ flex-direction: column;
     height: auto; /* Adjust height as needed */
     box-sizing: border-box; /* Ensure padding is included in height */
   }
+
+  .timeline-itemED:hover{
+    transition: .5s;
+    border: solid 2px #24c251;
+    box-shadow: 0px 0px 10px #24c251; 
+  }
+
+  .timeline-itemEX:hover{
+    transition: .5s;
+    border: solid 2px #248bc2;
+    box-shadow: 0px 0px 10px #248bc2; 
+  }
   
   .timeline-itemED:nth-child(even),  .timeline-itemEX:nth-child(even) {
       background: rgba(0, 0, 0, .8);
