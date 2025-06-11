@@ -780,6 +780,9 @@ flex-direction: column;
   .date {
       color: #999;
   }
+  .finalgrade {
+      color: #999;
+  }
 
   .to-top{
     transition: .2s;
