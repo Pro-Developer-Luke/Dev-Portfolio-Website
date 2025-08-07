@@ -7,9 +7,12 @@
     <title>Luke Wood | Contact</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <!-- Preconnecting to Google Fonts for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Roboto font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
@@ -17,12 +20,14 @@
     <header>
         <nav class="navbar">
             <div class="logo">
+                <!-- Profile/home link -->
                 <a href="index.html" class="logo">
                     <img src="assets/headshot.jpg" alt="Luke Wood Headshot">
                     <p>Profile</p>
                 </a>
             </div>
             <div class="pages">
+                <!-- Active nav item highlighted -->
                 <a href="projects.html">Projects</a>
                 <a href="experience.html">Experience</a>
                 <a id="activenav" href="contact.html">Contact</a>
@@ -32,10 +37,13 @@
 
     <div class="wrapper">
         <h1>Contact</h1><br>
+
+        <!-- Contact info section -->
         <div class="contact-container">
             <div class="contact-items">
                 <i class="fa-solid fa-house"></i>
                 <h2>Address</h2>
+                <!-- Address displayed centrally -->
                 <span><center>13 Victoria Street, Wilsden, Bradford, BD15 0JL</center></span>
             </div>
 
@@ -52,6 +60,7 @@
             </div>
         </div>
 
+        <!-- Contact form with Formspree integration for submissions -->
         <form autocomplete="off" method="post" action="https://formspree.io/f/xoqgobla">
             <h2>Enquire Here</h2>
             <label for="fname">First name: <span>*</span></label>
@@ -67,9 +76,12 @@
             <input type="submit" value="Submit">
         </form>
     </div>
+
+    <!-- Scroll to top button -->
     <a href="#nav" class="to-top">
         <i class="fas fa-chevron-up"></i> 
-        <p><b>To top</b></p></a>
+        <p><b>To top</b></p>
+    </a>
 
     <footer id="footer">
         <div class="footer-container">
@@ -93,6 +105,8 @@
         </div>
         <p>© Self-derived website created by Luke Wood | 2024</p>
     </footer>
+
+    <!-- JavaScript for interactive behavior -->
     <script src="javascript/scripts.js"></script>
 </body>
 

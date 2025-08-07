@@ -1,3 +1,4 @@
+/* Global styles */
 body{
     background-color: rgb(1, 1, 1, 0.6);
     background-image: url("../assets/background.jpg");
@@ -21,6 +22,7 @@ header{
     margin-bottom: 50px;
 }
 
+/* Nav bar */
 .navbar{
     display: flex;
     flex-direction: row;
@@ -78,7 +80,7 @@ header{
 #activenav{
     color: #ff974d;
 }
-
+/* Content wrapper */
 .wrapper{
     display: flex;
     width: 85%;
@@ -88,7 +90,7 @@ header{
     animation:fade-in ease 1s;
     animation-fill-mode: forwards;
 }
-
+/* Fade-in content */
 @keyframes fade-in{
     0%{
         opacity: 0;
@@ -99,7 +101,7 @@ header{
         transform: translateY(0px);
     }
 }
-
+/* Index introduction */
 .introduction{
     width: 100%;
     display: flex;
@@ -174,7 +176,7 @@ flex-direction: column;
     margin-inline: 50px;
 
 }
-
+/* Featured projects slides */
 .preslideinfo{
 
     display: flex;
@@ -323,9 +325,7 @@ flex-direction: column;
     background: #ff974d;
 }
 
-
-
-
+/* Contact page content */
   .contact-container{
     width: 100%;
     display: flex;
@@ -469,6 +469,7 @@ flex-direction: column;
 
   }
 
+  /* Projects page content */
   .accordion{
     width: 100%;
     padding-left: 0;
@@ -608,7 +609,7 @@ flex-direction: column;
     color: #ff974d;
   }
 
-
+/* Footer content */
   footer{
     width: 100%;
     background-color: black;
@@ -658,7 +659,7 @@ flex-direction: column;
     font-size: 10px;
     padding: 5px;
   }
-
+/* Techstack */
   .techstack{
     display: flex;
     justify-content:center;
@@ -670,7 +671,6 @@ flex-direction: column;
     margin-bottom: 30px;
     flex-wrap: wrap;
   }
-
   .techstack-item{
     display: flex;
     justify-content: center;
@@ -686,6 +686,7 @@ flex-direction: column;
   .techstack-item img{
     width: 60px;
   }
+/* Education / Professional Timeline content */
   .timeline {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -783,7 +784,7 @@ flex-direction: column;
   .finalgrade {
       color: #999;
   }
-
+/* To-Top button */
   .to-top{
     transition: .2s;
     background-color: #ff974d;
@@ -846,7 +847,7 @@ flex-direction: column;
       }
   }
   
-
+/* Responsive design elements */
   @media only screen and (max-width: 970px) {
     .introduction{
         flex-wrap: wrap;

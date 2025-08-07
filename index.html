@@ -16,6 +16,7 @@
     <header>
         <nav id="nav" class="navbar">
             <div class="logo">
+                <!-- Active nav item with user headshot and label -->
                 <a href="index.html" class="logo" id="activenav">
                     <img id="active" src="assets/headshot.jpg" alt="Luke Wood Headshot">
                     <p>Profile</p>
@@ -37,12 +38,14 @@
                 <p>Software and Web Developer</p>
                 <p><a href="Luke_Wood_CV.pdf" target="_blank" id="CV">View CV</a></p>
                 <ul>
+                    <!-- Social media icons with external links -->
                     <li><a class="sociallinks" href="https://www.facebook.com/profile.php?id=100011485631692" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
                     <li><a class="sociallinks" href="https://github.com/Pro-Developer-Luke" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
                     <li><a class="sociallinks" href="https://www.linkedin.com/in/luke-wood-302a53226/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </div>
 
+            <!-- Visual divider between profile and about section -->
             <div class="intro-section" id="divider"></div>
 
             <div class="intro-section" id="section-two">
@@ -57,8 +60,10 @@
                 </p>
             </div>
         </div>
-		<h2>My Techstack</h2>
+
+        <h2>My Techstack</h2>
         <div class="techstack">
+            <!-- Icons representing each technology -->
             <div class="techstack-item">
                 <img src="assets/tools/html5.svg" alt="HTML5">
                 <h3>HTML5</h3>
@@ -87,14 +92,14 @@
                 <img src="assets/tools/python.svg" alt="Python">
                 <h3>Python</h3>
             </div>
-			<div class="techstack-item">
+            <div class="techstack-item">
                 <img src="assets/tools/react.svg" alt="React">
                 <h3>React</h3>
-			</div>
-			<div class="techstack-item">
+            </div>
+            <div class="techstack-item">
                 <img src="assets/tools/mysql.svg" alt="MySQL">
                 <h3>MySQL</h3>
-				</div>
+            </div>
         </div>
 
         <div class="preslideinfo">
@@ -103,13 +108,17 @@
         </div>
 
         <div id="slider">
+            <!-- Radio inputs used for slider navigation -->
             <input type="radio" name="slider" id="slide1" checked>
             <input type="radio" name="slider" id="slide2">
             <input type="radio" name="slider" id="slide3">
             <input type="radio" name="slider" id="slide4">
+
             <div id="slides">
                 <div id="overflow">
+                    <!-- Clickable slide area linking to projects page -->
                     <div class="inner" onclick="window.location.href = 'projects.html';">
+                        <!-- Individual project slides with tool icons -->
                         <div class="slide slide_1" style="background-image: url('assets/projects/Clearwater_thumbnail.JPG');">
                             <div class="slide-content">
                                 <h2>Clearwater Accounting Website</h2>
@@ -140,7 +149,7 @@
                                     <img src="assets/tools/css3.svg" alt="CSS3">
                                     <img src="assets/tools/javascript.svg" alt="JavaScript">
                                     <img src="assets/tools/php.svg" alt="PHP">
-									<img src="assets/tools/react.svg">
+                                    <img src="assets/tools/react.svg">
                                 </div>
                             </div>
                         </div>
@@ -157,12 +166,16 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Navigation controls (circles/buttons) -->
             <div id="controls">
                 <label for="slide1"></label>
                 <label for="slide2"></label>
                 <label for="slide3"></label>
                 <label for="slide4"></label>
             </div>
+
+            <!-- Slide indicator bullets -->
             <div id="bullets">
                 <label for="slide1"></label>
                 <label for="slide2"></label>
@@ -171,9 +184,12 @@
             </div>
         </div>
     </div>
+
+    <!-- Scroll to top button -->
     <a href="#nav" class="to-top">
         <i class="fas fa-chevron-up"></i> 
-        <p><b>To top</b></p></a>
+        <p><b>To top</b></p>
+    </a>
 
     <footer id="footer">
         <div class="footer-container">
@@ -197,6 +213,7 @@
         </div>
         <p>© Self-derived website created by Luke Wood | 2024</p>
     </footer>
+
     <script src="javascript/scripts.js"></script>
 </body>
 
